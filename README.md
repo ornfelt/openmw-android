@@ -20,6 +20,21 @@ Select NightlyRelease, then run app in android studio and press fix on the sugge
 
 Build -> Make Project
 
+Also make sure that you have correct Android SDK and NDK installed. I compiled my project with these versions:
+
+Android SDK Build-Tools: 34.0.0, 33.0.1, 29.0.2, 
+
+NDK: 21.0.6113669 (90 % sure, but also double check buildscripts/include/version.sh) Android studio should tell you what version you need if you don't have the correct one.
+
+CMake 3.22.1
+
+Android SDK Platform-Tools:
+34.0.5
+
+To install different versions in Android Studio:
+
+Tools -> SDK Manager -> SDK Tools -> Check Show package details and uncheck obsolete packages if needed.
+
 # No longer under development
 
 You can download one of the old builds from the Releases tab.
