@@ -1,3 +1,25 @@
+# Notes:
+
+For my device (Samsung Galaxy S21) run: ./build.sh --arch arm64
+
+You can also run this for debug: ./build.sh --arch arm64 --debug
+
+If you don't have JDK 1.8 set already, do this in Android Studio:
+
+File -> Settings -> Build, Execution, Deployment -> Build Tools -> Gradle.
+
+Set Gradle JDK to download JDK and select version 1.8 and for example Eclipse Temurin.
+
+Then sync gradle again (ctrl-shift-o).
+
+To build release (I've tested nightly release):
+
+Build -> Select Build Variant.
+
+Select NightlyRelease, then run app in android studio and press fix on the suggested run configuration. Then build APK with:
+
+Build -> Make Project
+
 # No longer under development
 
 You can download one of the old builds from the Releases tab.
