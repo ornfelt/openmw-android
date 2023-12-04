@@ -12,6 +12,8 @@ Set Gradle JDK to download JDK and select version 1.8 and for example Eclipse Te
 
 Then sync gradle again (ctrl-shift-o).
 
+(In commandline you can specify JDK with: ./gradlew -Dorg.gradle.java.home=/home/jonas/.jdks/temurin-1.8.0_392 assembleDebug)
+
 To build release (I've tested nightly release):
 
 Build -> Select Build Variant.
